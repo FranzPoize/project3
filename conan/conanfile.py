@@ -24,7 +24,7 @@ class Project3Conan(ConanFile):
     }
 
     requires = (
-        ("boost/1.73.0"),
+        ("boost/1.77.0"),
     )
 
 
