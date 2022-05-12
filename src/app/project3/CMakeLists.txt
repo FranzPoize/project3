@@ -32,10 +32,6 @@ set_target_properties(${TARGET_NAME} PROPERTIES
 
 cmc_find_dependencies()
 
-target_link_libraries(${TARGET_NAME}
-    PUBLIC Boost::boost
-)
-
 ##
 ## Install
 ##
